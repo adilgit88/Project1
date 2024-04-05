@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form align="center">
+        <h1>Google</h1>
+        <input type="text" name="searchTerm" size="40" list="terms">
+        <datalist id="terms">
+            <option>Java</option>
+            <option >CSS</option>
+            <option>HTML</option>
+            <option >JAVaScript</option>
+            <option>Python</option>
+            <option >SpringBoot</option>
+            <option>programming</option>
+            
+        </datalist>
+
+    </form>
+
+
+
+    <form >
+
+        <h2>Register User</h2>
+        <dl>
+            <dt>User Name</dt>
+            <dd><input type="text" name="username"  value="username" disabled></dd>
+            <dt>address</dt>
+            <dd><input type="text" name="address" size ="60"></dd>
+            <dt>age</dt>
+            <dd><input type="text" autofocus></dd>
+            <dt>first name</dt>
+            <dd><input type="text" name="first name" minlength="5" placeholder="minimum 5 char"></dd>
+            <dt>last name</dt>
+            <dd><input type="text" name="last name" maxlength="5" placeholder="maximum 5 char"></dd>
+            <dt>user id</dt>
+            <dd><input type="text" name="userid" required></dd>
+            <dt>city</dt>
+            <dd><input type="text" name="city"  placeholder="city" list=""></dd>
+
+        </dl>
+        <button>Submit</button>
+    </form>
+
+    
+</body>
+</html>
